@@ -469,7 +469,6 @@ while running :
                         Start_Game()                    
                         
                  
-                        wn.update()
                         
                         move_enemy()
                         move_enemylaser()
@@ -511,7 +510,7 @@ while running :
                             comet_pen.write(cometstring, False, align = "Left", font = ("Courier", 24, "normal"))
 
 
-                        wn.update()                       
+                       
                         for comet in comets:
                             move_comet()
 
