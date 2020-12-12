@@ -10,7 +10,7 @@ import sys
 wn = turtle.Screen()
 Pilot = wn.textinput("Welcome Player!!", "Please write your name in the space below:").capitalize()
 if Pilot == '':
-    Pilot = ""
+    Pilot = "Pilot"
 if "ς"  in Pilot and   Pilot[-2] == "ο" and len(Pilot) == 6 or len(Pilot) == 5 or len(Pilot) == 7:
     Pilot = Pilot.rstrip("ς")
 if  "ς"  in Pilot and Pilot[-2] =="η" or Pilot[-2] == "ή":
